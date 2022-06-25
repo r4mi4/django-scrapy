@@ -6,21 +6,26 @@ Screenshot :
 
 
 ![Screenshot](Screenshot.png)
-# Run
+## Run
 
-## Create and activate virtual env
+### Create and activate virtual env
 
     python3 -m venv venv
     . ./venv/bin/activate
 
-## Install dependencies
+### Install dependencies
 
     pip install -r requirements.txt
+
+### Run django
+    python manage.py runserver
+### create superuser
+    python manage.py createsperuser
 
 ## Check spiders contracts
 
     scrapy check codal
 
-## Scrap
+### Scrap
 
     scrapy crawl codal
